@@ -1,7 +1,7 @@
 <?php
 ini_set('display_errors','on');
 error_reporting(E_ALL & ~E_NOTICE & ~E_WARNING);
-include_once("01_conn.php");
+include_once("conn.php");
 
 try{
     $sql = 'create table visitor (
