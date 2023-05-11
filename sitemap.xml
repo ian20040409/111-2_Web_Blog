@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://web.nttu.edu.tw/s06/</loc>
+  <lastmod>2023-05-11T01:40:29+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://web.nttu.edu.tw/s06/index.htm</loc>
+  <lastmod>2023-05-11T01:38:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://web.nttu.edu.tw/s06/photo_post/about.html</loc>
+  <lastmod>2023-04-28T05:48:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://web.nttu.edu.tw/s06/1.html</loc>
+  <lastmod>2023-04-28T06:34:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://web.nttu.edu.tw/s06/photo_post/photo_index.html</loc>
+  <lastmod>2023-04-28T05:14:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://web.nttu.edu.tw/s06/reload.html</loc>
+  <lastmod>2023-04-28T06:47:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://web.nttu.edu.tw/s06/feedback.html</loc>
+  <lastmod>2023-04-28T06:33:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://web.nttu.edu.tw/s06/photo_post/pic.html</loc>
+  <lastmod>2023-04-28T05:49:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://web.nttu.edu.tw/s06/photo_post/pic-2.html</loc>
+  <lastmod>2023-04-28T05:09:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>

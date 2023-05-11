@@ -1,13 +1,13 @@
 <!DOCTYPE HTML>
 <html lang="zh-TW">
 	<head>
-		<title>💬 意見回饋</title>
+		<title>🎟️ 台鐵</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="is-preload">
-
+		
 		<!-- Wrapper -->
 			<div id="wrapper">
 
@@ -27,26 +27,51 @@
 
 							<!-- Content -->
 								<section>
-									<h2>💬 意見回饋</h2>
+									<h2>🎟️ 台鐵</h2>
 
-													<form method="post" action="#">
+													<form method="post" action="trainbook.php">
 														<div class="row gtr-uniform">
 															<div class="col-6 col-12-xsmall">
-																<input type="text" name="demo-name" id="demo-name" value="" placeholder="姓名" />
+																<input name="uid" type="text" placeholder="身分證字號" />
 															</div>
+															<div class="col-12">
+																出發站
+																<select name="depart" id="demo-category">
+																	<option value="">- 出發站 -</option>
+																	<option value="1">台北</option>
+																	<option value="2">台中</option>
+																	<option value="3">高雄</option>
+																	<option value="4">新北</option>
+																</select>
+															</div>
+															<div class="col-12">
+																<select name="arrive" id="demo-category">
+																	<option value="">- 抵達站 -</option>
+																	<option value="1">台北</option>
+																	<option value="2">台中</option>
+																	<option value="3">高雄</option>
+																	<option value="4">新北</option>
+																</select>
+															</div>
+															<div class="col-12">
+																日期
+																<input name="ddate" type="date" >
+															</div>
+															<div class="col-12">
+																車次
+																<input name="trainNo" type="text" placeholder="車次" />
+															</div>
+															
 															<div class="col-6 col-12-xsmall">
 																<input type="email" name="demo-email" id="demo-email" value="" placeholder="電子郵件" />
 															</div>
 															
 															
-															<!-- Break -->
-															<div class="col-12">
-																<textarea name="demo-message" id="demo-message" placeholder="請在這裡輸入內容..." rows="6"></textarea>
-															</div>
+															
 															<!-- Break -->
 															<div class="col-12">
 																<ul class="actions">
-																	<li><input type="submit" value="傳送" class="primary" /></li>
+																	<li><input type="submit" value="訂票" class="primary" /></li>
 																</ul>
 															</div>
 														</div>
@@ -57,6 +82,7 @@
 
 						</div>
 					</div>
+				
 
 				<!-- Sidebar -->
 					<div id="sidebar">

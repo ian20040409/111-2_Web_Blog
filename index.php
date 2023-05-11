@@ -1,8 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="zh-TW">
 	<head>
-	
-		<title>NYou的網站</title>
+		<title>NYou的網站 | 部落格 | 紀錄 |NTTU 台東大學 11111110</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -38,7 +37,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									<div class="content">
-										<header>
+									<header>
 											<h1>Hi, My name is Ian</h1>
 											<p>I am a college student majoring in Computer Science and Information Engineering.</p>
 											
@@ -65,19 +64,23 @@
 												<li><a href="1.html" class="button">More</a></li>
 											</ul>
 										</article>
-										
-									</div>
-									<div class="posts">
 										<article>
+											<a href="photo_post/photo_index.html" class="image"><img src="images/pic06.jpg" alt="" /></a>
+											<h3>生活紀錄...</h3>
+											 
+											<ul class="actions">
+												<li><a href="photo_post/photo_index.html" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>									
 											<a href="reload.html" class="image"><img src="images/pic03.jpg" alt="" /></a>
 											<h3>更多文章</h3>
 											 
 											<ul class="actions">
-												<li><a href="reload.html" class="button">More</a></li>
+												<li><a href="https://ianlin.students.media/" class="button">More</a></li>
 											</ul>
 										</article>
 										
-									</div>
 								</section>
 								
 						</div>
