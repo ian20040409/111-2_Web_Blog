@@ -63,6 +63,12 @@
 																車次
 																<input name="trainNo" type="text" placeholder="車次" />
 															</div>
+
+															<div class="col-12">
+															訂票代碼
+															<input name="bookingCode" type="text" placeholder="訂票代碼" />
+															</div>
+
 															<!--
 															<div class="col-6 col-12-xsmall">
 																<input type="email" name="demo-email" id="demo-email" value="" placeholder="電子郵件" />
@@ -175,7 +181,28 @@
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
-		
+		<script>
+function generateBookingCode() {
+  var code = '';
+  var characters = '0123456789';
+  for (var i = 0; i < 6; i++) {
+    code += characters.charAt(Math.floor(Math.random() * characters.length));
+  }
+  return code;
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  var bookingCodeInput = document.querySelector('input[name="bookingCode"]');
+
+  if (bookingCodeInput) {
+    bookingCodeInput.value = generateBookingCode();
+  }
+});
+
+
+
+
+		</script>
 
 		<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
 		async defer>
