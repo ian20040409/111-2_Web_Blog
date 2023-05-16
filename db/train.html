@@ -5,6 +5,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="../assets/css/main.css" />
+		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+		
 	</head>
 	<body class="is-preload">
 		
@@ -70,9 +72,16 @@
 															
 															<!-- Break -->
 															<div class="col-12">
-																<ul class="actions">
-																	<li><input type="submit" value="訂票" class="primary" /></li>
-																</ul>
+																
+																	
+																<div class="g-recaptcha" data-sitekey="6LfCDxQmAAAAAAHt2kCgrA15iixN4ob3_HjMsWYq"></div>
+
+																	<ul class="actions">
+																		<li><input type="submit" value="訂票" class="primary" /></li>
+																	</ul>
+																
+
+																
 															</div>
 														</div>
 													</form>
@@ -115,6 +124,7 @@
 							</nav>
 
 							<section>
+								<!-- Mini Posts 
 								<header class="major">
 									<h2>📌 釘選文章</h2>
 								</header>
@@ -135,7 +145,7 @@
 								</div>
 
 							</section>
-
+						-->
 						<!-- Section -->
 							<section>
 								<header class="major">
@@ -165,7 +175,11 @@
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
+		
 
+		<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+		async defer>
+	</script>
 </body>
 </html>
                                                 
