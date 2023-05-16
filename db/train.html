@@ -31,7 +31,7 @@
 								<section>
 									<h2>🎟️ 台鐵</h2>
 
-													<form method="post" action="trainbook.php">
+													<form method="post" action="trainbook.php" onsubmit="return validateForm()">
 														<div class="row gtr-uniform">
 															<div class="col-6 col-12-xsmall">
 																<input name="uid" type="text" placeholder="身分證字號" />
@@ -203,7 +203,21 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 		</script>
+<script>
+	function validateForm() {
+  var response = grecaptcha.getResponse();
 
+  if (response.length === 0) {
+    // 用戶尚未完成驗證，阻止表單提交
+    alert('請先完成驗證');
+    return false;
+  }
+
+  // 用戶已完成驗證，允許表單提交
+  return true;
+}
+
+</script>
 		<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
 		async defer>
 	</script>
