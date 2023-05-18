@@ -110,7 +110,8 @@
 									</li>
 									<li><a href="feedback.html">💬 意見回饋</a></li>
 									
-
+									<li><a href="/db/train.html">train</a></li>
+									<li><a href="/db/trainQuery.php">train</a></li>
 										
 									
 								</ul>
