@@ -24,7 +24,7 @@
 
 							<!-- Header -->
 								<header id="header">
-									<a href="index.htm" class="logo"><h2><strong>NYou的網站</strong></h2> by Ian</a>
+									<a href="index.php" class="logo"><h2><strong>NYou的網站</strong></h2> by Ian</a>
 									<ul class="icons">
 										<li><a href="https://www.facebook.com/profile.php?id=100068804133842" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
 										<li><a href="https://www.youtube.com/@ianlin17698/" class="icon brands fa-youtube alt"><span class="label">Instagram</span></a></li>
@@ -111,7 +111,7 @@
 									<h2>Menu</h2>
 								</header>
 								<ul>
-									<li><a href="index.htm">🏠 首頁</a></li>
+									<li><a href="index.php">🏠 首頁</a></li>
 									<li><a href="photo_post\about.html">📂 關於我</a></li>
 									
 									<li><a href="photo_post/photo_index.html">📸 相簿</a></li>
