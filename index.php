@@ -10,6 +10,8 @@
 	
 	
 	</head>
+
+</script>
 	<body class="is-preload">
 	
 
@@ -91,11 +93,17 @@
 						<div class="inner">
 
 							<!-- Search -->
-								<section id="search" class="alt">
-									<form method="post" action="#">
-										<input type="text" name="query" id="query" placeholder="Search" />
-									</form>
-								</section>
+							<section>
+								<form action="
+								https://cse.google.com/cse?cx=a6281ea9750794650" id="a6281ea9750794650">
+									<input type="hidden" name="cx" value="a6281ea9750794650">
+									<input type="hidden" name="ie" value="UTF-8">
+									
+									<input type="text" name="q" placeholder="站内搜尋">
+									<button type="submit">搜尋</button>
+								  </form>
+								  
+							</section>
 
 							<!-- Menu -->
 							<nav id="menu">

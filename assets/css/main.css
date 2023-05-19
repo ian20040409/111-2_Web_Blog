@@ -2271,3 +2271,15 @@ button,
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+  #a6281ea9750794650 {
+      display: flex;
+      align-items: center;
+      }
+
+      #a6281ea9750794650 input[type="text"] {
+      margin-right: 10px;
+      }
+
+      #a6281ea9750794650 button[type="submit"] {
+      margin-left: 10px;
+      }
