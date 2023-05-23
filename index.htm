@@ -85,13 +85,20 @@
 								
 						</div>
 					</div>
-					<body>
+					
 						
 						<!-- 浮動按鈕 -->
+						<body>
 						<div id="floating-button" onclick="scrollToTop()">
 							<img src="assets/arrow-up.svg" alt="Arrow" width="50" height="50">
 						  </div>
-					  
+						  <script>
+							function scrollToTop() {
+							  $('html, body').animate({
+								scrollTop: 0
+							  }, 'slow');
+							}
+						  </script>
 					  </body>
 				<!-- Sidebar -->
 					<div id="sidebar">
@@ -410,18 +417,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script>
-				function scrollToTop() {
-				  if ('scrollBehavior' in document.documentElement.style) {
-					window.scroll({
-					  top: 0,
-					  behavior: 'smooth'
-					});
-				  } else {
-					window.scrollTo(0, 0);
-				  }
-				}
-			  </script>
+			
 
 	</body>
 </html>

@@ -7,7 +7,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		
 		<link type="image/png" sizes="96x96" rel="icon" href="assets/icons8-hard-working-96.png">
-	
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	
 	</head>
 
@@ -91,26 +91,28 @@
 						
 						<!-- 浮動按鈕 -->
 						<div id="floating-button" onclick="scrollToTop()">
-						  <span>&uarr;</span>
-						</div>
-					  
-						<script>
-						  function scrollToTop() {
-							window.scrollTo({
-							  top: 0,
-							  behavior: 'smooth'
-							});
-						  }
-						</script>
+							<img src="assets/arrow-up.svg" alt="Arrow" width="50" height="50">
+						  </div>
+					
 					  </body>
 
 
 					  <!-- 浮動按鈕 -->
+					  <body>
 						<div id="floating-button" onclick="scrollToTop()">
 							<img src="assets/arrow-up.svg" alt="Arrow" width="50" height="50">
 						  </div>
-					  
-					  </body>
+						  <script>
+							function scrollToTop() {
+							  $('html, body').animate({
+								scrollTop: 0
+							  }, 'slow');
+							}
+						  </script>
+					  </body>	
+
+
+
 				<!-- Sidebar -->
 					<div id="sidebar">
 						<div class="inner">
@@ -423,18 +425,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script>
-				function scrollToTop() {
-				  if ('scrollBehavior' in document.documentElement.style) {
-					window.scroll({
-					  top: 0,
-					  behavior: 'smooth'
-					});
-				  } else {
-					window.scrollTo(0, 0);
-				  }
-				}
-			  </script>
+			
 
 	</body>
 </html>
