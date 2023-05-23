@@ -87,7 +87,22 @@
 								
 						</div>
 					</div>
-
+					<body>
+						
+						<!-- 浮動按鈕 -->
+						<div id="floating-button" onclick="scrollToTop()">
+						  <span>&uarr;</span>
+						</div>
+					  
+						<script>
+						  function scrollToTop() {
+							window.scrollTo({
+							  top: 0,
+							  behavior: 'smooth'
+							});
+						  }
+						</script>
+					  </body>
 				<!-- Sidebar -->
 					<div id="sidebar">
 						<div class="inner">

@@ -2283,3 +2283,17 @@ button,
       #a6281ea9750794650 button[type="submit"] {
       margin-left: 10px;
       }
+      #floating-button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #f56a6a;
+        color: #ffffff;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 24px;
+        cursor: pointer;
+        z-index: 999;
+      }
