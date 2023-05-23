@@ -5,6 +5,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 	</head>
 	
 	<body class="is-preload">
@@ -28,22 +29,25 @@
 
 							<!-- Content -->
 								<section>
-									<h2>💬 意見回饋</h2>
+									<h2>📄 網站意見回饋</h2>
 
-													<form method="post" action="#">
+													<form method="post" action="db/feedback.php" onsubmit="return validateForm()">
 														<div class="row gtr-uniform">
 															<div class="col-6 col-12-xsmall">
-																<input type="text" name="demo-name" id="demo-name" value="" placeholder="姓名" />
+																<input type="text" name="name" id="name" value="" placeholder="姓名" />
 															</div>
 															<div class="col-6 col-12-xsmall">
-																<input type="email" name="demo-email" id="demo-email" value="" placeholder="電子郵件" />
+																<input type="email" name="email" id="email" value="" placeholder="電子郵件" />
 															</div>
 															
 															
 															<!-- Break -->
 															<div class="col-12">
-																<textarea name="demo-message" id="demo-message" placeholder="請在這裡輸入內容..." rows="6"></textarea>
+																<textarea name="message" id="message" placeholder="請在這裡輸入內容..." rows="6"></textarea>
 															</div>
+															
+															<div class="g-recaptcha" data-sitekey="6LfCDxQmAAAAAAHt2kCgrA15iixN4ob3_HjMsWYq"></div>
+
 															<!-- Break -->
 															<div class="col-12">
 																<ul class="actions">
@@ -87,7 +91,7 @@
 									
 									<li><a href="photo_post/photo_index.html">📸 相簿</a></li>
 									</li>
-									<li><a href="feedback.html">💬 意見回饋</a></li>
+									<li><a href="feedback.html">📄 意見回饋</a></li>
 									
 
 										
@@ -146,7 +150,21 @@
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
+		<script>
+			function validateForm() {
+		var response = grecaptcha.getResponse();
 
+		if (response.length === 0) {
+			// 用戶尚未完成驗證，阻止表單提交
+			alert('請先完成驗證');
+			return false;
+		}
+
+		// 用戶已完成驗證，允許表單提交
+		return true;
+		}
+
+</script>
 </body>
 </html>
                                                 
