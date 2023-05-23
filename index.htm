@@ -8,7 +8,8 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		
 		<link type="image/png" sizes="96x96" rel="icon" href="assets/icons8-hard-working-96.png">
-	
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 	
 	</head>
 	
@@ -75,7 +76,7 @@
 											<h3>更多文章</h3>
 											 
 											<ul class="actions">
-												<li><a href="https://ianlin.students.media/" class="button">More</a></li>
+													</li>
 											</ul>
 										</article>
 										
@@ -88,17 +89,9 @@
 						
 						<!-- 浮動按鈕 -->
 						<div id="floating-button" onclick="scrollToTop()">
-						  <span>&uarr;</span>
-						</div>
+							<img src="assets/arrow-up.svg" alt="Arrow" width="50" height="50">
+						  </div>
 					  
-						<script>
-						  function scrollToTop() {
-							window.scrollTo({
-							  top: 0,
-							  behavior: 'smooth'
-							});
-						  }
-						</script>
 					  </body>
 				<!-- Sidebar -->
 					<div id="sidebar">
@@ -147,15 +140,14 @@
 										
 										<article>
 											
-											<a href="1.html" class="image"><img src="images/pic01.jpg" alt="" /></a>
-											<p>如何賺錢</p>
+											<a href="1.html" class="image"><img src="images/pic01.jpg" alt="" /><br><br>
+											<h3>如何賺錢</h3></a>
 
 										</article>
 										<article>
 											
-											<a href="photo_post/about.html" class="image"><img src="assets/about/hi.PNG" alt="" /></a>
-											<p>自我介紹</p>
-											
+											<a href="photo_post/about.html" class="image"><img src="photo_post\assets\img\about\hi.PNG" alt="" /><br><br>
+											<h3>自我介紹</h3></a>											
 										</article>
 									</div>
 									
@@ -418,6 +410,18 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				function scrollToTop() {
+				  if ('scrollBehavior' in document.documentElement.style) {
+					window.scroll({
+					  top: 0,
+					  behavior: 'smooth'
+					});
+				  } else {
+					window.scrollTo(0, 0);
+				  }
+				}
+			  </script>
 
 	</body>
 </html>

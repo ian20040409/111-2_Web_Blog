@@ -103,6 +103,14 @@
 						  }
 						</script>
 					  </body>
+
+
+					  <!-- 浮動按鈕 -->
+						<div id="floating-button" onclick="scrollToTop()">
+							<img src="assets/arrow-up.svg" alt="Arrow" width="50" height="50">
+						  </div>
+					  
+					  </body>
 				<!-- Sidebar -->
 					<div id="sidebar">
 						<div class="inner">
@@ -141,7 +149,7 @@
 							</nav>
 
 							<!-- Section -->
-								<section>
+							<section>
 									<header class="major">
 										<h2>📌 釘選文章</h2>
 									</header>
@@ -149,20 +157,18 @@
 										
 										<article>
 											
-											<a href="1.html" class="image"><img src="images/pic01.jpg" alt="" /></a>
-											<p>如何賺錢</p>
+											<a href="1.html" class="image"><img src="images/pic01.jpg" alt="" /><br><br>
+											<h3>如何賺錢</h3></a>
 
 										</article>
 										<article>
 											
-											<a href="photo_post/about.html" class="image"><img src="assets/about/hi.PNG" alt="" /></a>
-											<p>自我介紹</p>
-											
+											<a href="photo_post/about.html" class="image"><img src="photo_post\assets\img\about\hi.PNG" alt="" /><br><br>
+											<h3>自我介紹</h3></a>											
 										</article>
 									</div>
 									
 								</section>
-								
 
 							<!-- Section -->
 								<section>
@@ -417,6 +423,18 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				function scrollToTop() {
+				  if ('scrollBehavior' in document.documentElement.style) {
+					window.scroll({
+					  top: 0,
+					  behavior: 'smooth'
+					});
+				  } else {
+					window.scrollTo(0, 0);
+				  }
+				}
+			  </script>
 
 	</body>
 </html>
