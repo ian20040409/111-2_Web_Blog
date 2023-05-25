@@ -1522,11 +1522,11 @@ button,
   50% {
     transform: translateX(-2px);
   }
-  75% {
-    transform: translateY(-1px);
+  85% {
+    transform: translateY(+5px);
   }
-  75% {
-    transform: translateY(+1px);
+  100% {
+    transform: translateY(-5px);
   }
 }
   input[type="submit"]:hover,
