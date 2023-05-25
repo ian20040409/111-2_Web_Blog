@@ -1510,23 +1510,17 @@ button,
   text-decoration: none;
   text-transform: uppercase;
   white-space: nowrap; 
-  animation: bounce-button 2s infinite;
+  animation: bounce-button 3s infinite;
 }
 @keyframes bounce-button {
   0% {
     transform: translateY(0px);
   }
-  25% {
-    transform: translateX(+2px);
-  }
   50% {
-    transform: translateX(-2px);
-  }
-  85% {
-    transform: translateY(+5px);
+    transform: translateY(-10px);
   }
   100% {
-    transform: translateY(-5px);
+    transform: translateY(+0px);
   }
 }
   input[type="submit"]:hover,
