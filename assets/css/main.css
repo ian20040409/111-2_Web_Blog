@@ -2283,7 +2283,7 @@ button,
       #a6281ea9750794650 button[type="submit"] {
       margin-left: 10px;
       }
-    
+      /*
       #floating-button {
         position: fixed;
         bottom: 20px;
@@ -2295,13 +2295,25 @@ button,
         cursor: pointer;
         z-index: 999;
         
-      }
-     
-      @media (prefers-color-scheme: ${dark or light}) {
-        .dark-mode {
-          background-color: black;
-          color: white;
+      }*/
+      #floating-button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        cursor: pointer;
+        animation: bounce 1s infinite;
 
-            
+      }
+      @keyframes bounce {
+        0% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-20px);
+        }
+        100% {
+          transform: translateY(0);
         }
       }
+     
+
