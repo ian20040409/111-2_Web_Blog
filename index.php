@@ -59,11 +59,11 @@
 									</header>
 									<div class="posts">
 										<article>
-											<a href="1.html" class="image"><img src="images/pic01.jpg" alt="" /></a>
+											<a href="1.php" class="image"><img src="images/pic01.jpg" alt="" /></a>
 											<h3>如何賺錢</h3>
 											 
 											<ul class="actions">
-												<li><a href="1.html" class="button">More</a></li>
+												<li><a href="1.php" class="button">More</a></li>
 											</ul>
 										</article>
 										<article>
@@ -116,7 +116,7 @@
 				<!-- Sidebar -->
 					<div id="sidebar">
 						<div class="inner">
-
+							
 							<!-- Search -->
 							<section>
 								<form action="
@@ -125,7 +125,8 @@
 									<input type="hidden" name="ie" value="UTF-8">
 									
 									<input type="text" name="q" placeholder="站内搜尋">
-									<button type="submit">搜尋</button>
+									
+									<button class="button primary icon solid fa-search" type="submit">搜尋</button>
 								  </form>
 								  
 							</section>
@@ -142,10 +143,10 @@
 									<li><a href="photo_post/photo_index.html">📸 相簿</a></li>
 									</li>
 									<li><a href="feedback.html">💬 意見回饋</a></li>
-									
+									<!--
 									<li><a href="db/train.html">train</a></li>
 									<li><a href="db/trainQuery.php">train</a></li>
-										
+						-->
 									
 								</ul>
 							</nav>
@@ -159,7 +160,7 @@
 										
 										<article>
 											
-											<a href="1.html" class="image"><img src="images/pic01.jpg" alt="" /><br><br>
+											<a href="1.php" class="image"><img src="images/pic01.jpg" alt="" /><br><br>
 											<h3>如何賺錢</h3></a>
 
 										</article>

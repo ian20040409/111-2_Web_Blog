@@ -8,22 +8,28 @@ $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
 
-
 try {
-    $sql = "INSERT INTO comment (name, email, message) VALUES ('$name', '$email', '$message')";
-    
-    echo $sql . "<br>\n";
+    $sql = "INSERT INTO comment (name, email, message) VALUES (:name, :email, :message)";
+    $stmt = $connect->prepare($sql);
+    $stmt->bindParam(':name', $name);
+    $stmt->bindParam(':email', $email);
+    $stmt->bindParam(':message', $message);
 
-    $result = $connect->exec($sql);
+    $result = $stmt->execute();
 
     if ($result === false) {
-        $msg = "fail update. <br>\n";
+        $msg = "更新失败。<br>\n";
     } else {
-        $msg = "success update. <br>\n";
+        $msg = "更新成功。<br>\n";
     }
 
     echo $msg;
 } catch (PDOException $e) {
-    echo $e->getMessage() . "<br>\n";
+    
+    echo "⚠️錯誤：" . $e->getMessage();
 }
+
+echo "👤 ID：" . $name . "<br>";
+echo "💬 留言内容：" . $message . "<br>";
+
 ?>
