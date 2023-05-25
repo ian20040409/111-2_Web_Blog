@@ -1509,7 +1509,23 @@ button,
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  white-space: nowrap; }
+  white-space: nowrap; 
+  animation: bounce-button 1s infinite;
+}
+@keyframes bounce-button {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateX(+3px);
+  }
+  50% {
+    transform: translateX(-3px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
   input[type="submit"]:hover,
   input[type="reset"]:hover,
   input[type="button"]:hover,
@@ -2309,7 +2325,7 @@ button,
           transform: translateY(0);
         }
         50% {
-          transform: translateY(-20px);
+          transform: translateY(-15px);
         }
         100% {
           transform: translateY(0);
