@@ -1510,7 +1510,10 @@ button,
   text-decoration: none;
   text-transform: uppercase;
   white-space: nowrap; 
-  
+  -moz-transition: -moz-transform 0.5s ease;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  -ms-transition: -ms-transform 0.5s ease;
+  transition: transform 0.5s ease; 
 }
 
   input[type="submit"]:hover,
@@ -1520,11 +1523,11 @@ button,
   .button:hover {
 
     background-color: rgba(106, 106, 246, 0.048); 
-    transition: 0.4s;
-    -moz-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
+    transition: 0.3s;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
   }
   
     input[type="submit"]:active,
