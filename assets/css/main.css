@@ -1510,28 +1510,27 @@ button,
   text-decoration: none;
   text-transform: uppercase;
   white-space: nowrap; 
-  animation: bounce-button 3s infinite;
+  
 }
-@keyframes bounce-button {
-  0% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-  100% {
-    transform: translateY(+0px);
-  }
-}
+
   input[type="submit"]:hover,
   input[type="reset"]:hover,
   input[type="button"]:hover,
   button:hover,
   .button:hover {
-    background-color: rgba(106, 106, 246, 0.048); }
-  input[type="submit"]:active,
+
+    background-color: rgba(106, 106, 246, 0.048); 
+    transition: 0.4s;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  
+    input[type="submit"]:active,
   input[type="reset"]:active,
   input[type="button"]:active,
+  
   button:active,
   .button:active {
     background-color: rgba(106, 127, 245, 0.123); }
@@ -1574,7 +1573,9 @@ button,
     input[type="button"].primary:hover,
     button.primary:hover,
     .button.primary:hover {
-      background-color: #7885f6; }
+      background-color: #7885f6;
+      
+    }
     input[type="submit"].primary:active,
     input[type="reset"].primary:active,
     input[type="button"].primary:active,
@@ -2317,12 +2318,16 @@ button,
         animation: bounce 1s infinite;
 
       }
+      #floating-button:hover {
+        /* 鼠標懸停時的樣式 */
+        transform: scale(1.1);
+      }
       @keyframes bounce {
         0% {
           transform: translateY(0);
         }
         50% {
-          transform: translateY(-15px);
+          transform: translateY(-8px);
         }
         100% {
           transform: translateY(0);
