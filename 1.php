@@ -164,7 +164,8 @@
 									<input type="hidden" name="ie" value="UTF-8">
 									
 									<input type="text" name="q" placeholder="站内搜尋">
-									<button type="submit">搜尋</button>
+									
+									<button class="button primary icon solid fa-search" type="submit">搜尋</button>
 								  </form>
 								  
 							</section>
@@ -174,7 +175,7 @@
 									<h2>Menu</h2>
 								</header>
 								<ul>
-									<li><a href="index.htm">🏠 首頁</a></li>
+									<li><a href="index.php">🏠 首頁</a></li>
 									<li><a href="photo_post/about.html">📂 關於我</a></li>
 									
 										
