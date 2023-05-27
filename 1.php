@@ -82,6 +82,7 @@
 									</div>
 								</form>
 								<section>
+									<header><h3>📋 留言內容</h3></header>
 <?php
 include('db/conn.php');
 $sql = "SELECT * FROM comment";
