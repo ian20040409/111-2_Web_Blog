@@ -225,21 +225,9 @@ if ($result->rowCount() > 0) {
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
-		<script>
-			function validateForm() {
-		var response = grecaptcha.getResponse();
+		<script src="assets/js/validateForm.js"></script>
 
-		if (response.length === 0) {
-			// 用戶尚未完成驗證，阻止表單提交
-			alert('請先完成驗證');
-			return false;
-		}
 
-		// 用戶已完成驗證，允許表單提交
-		return true;
-		}
-
-		</script>
 		
 </body>
 
