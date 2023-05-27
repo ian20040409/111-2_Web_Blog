@@ -130,7 +130,7 @@ em, i {
 
 p {
   margin: 0 0 2em 0; 
-  font-size: 25px;
+  font-size: 20px;
   color: #000;
 }
 
@@ -2365,7 +2365,7 @@ button,
       
       .message {
         margin: 0;
-        font-size: 25px; 
+        font-size: 18px; 
         line-height: 1.5;
         color: black;
       }

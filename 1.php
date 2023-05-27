@@ -95,7 +95,7 @@ if ($result->rowCount() > 0) {
 
     <section class="comment">
       <div class="avatar">
-        <img src="assets/user.png" alt="User Avatar">
+        <img src="assets/user.svg" alt="User Avatar">
       </div>
       <div class="comment-content">
         <h3 class="username"><?php echo $name; ?></h3>
