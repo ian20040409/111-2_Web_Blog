@@ -82,6 +82,8 @@
 									</div>
 								</form>
 								<section>
+								<header class="main">
+								<h3>📋 留言內容</h3>
 								<div class="table-wrapper">
     <table>
         <thead>
