@@ -82,35 +82,51 @@
 									</div>
 								</form>
 								<section>
-<?php
-include('db/conn.php');
-$sql = "SELECT * FROM comment";
-$result = $connect->query($sql);
+								<header class="main">
+								<h3>📋 留言內容</h3>
+								<div class="table-wrapper">
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Message</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php
+            include('db/conn.php');
+            $sql = "SELECT * FROM comment";
+            $result = $connect->query($sql);
 
-if ($result->rowCount() > 0) {
-  while ($row = $result->fetch(PDO::FETCH_ASSOC)) {
-    $name = $row['name'];
-    $message = $row['message'];
-    ?>
+            if ($result->rowCount() > 0) {
+                while ($row = $result->fetch(PDO::FETCH_ASSOC)) {
+                    $name = $row['name'];
+                    $email = $row['email'];
+                    $message = $row['message'];
+            ?>
+                    <tr>
+                        <td><?php echo $name; ?></td>
+                        <td><?php echo $email; ?></td>
+                        <td><?php echo $message; ?></td>
+                    </tr>
+            <?php
+                }
+            } else {
+                echo "<tr><td colspan='3'>😽空空如也</td></tr>";
+            }
+            ?>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2"></td>
+               
+            </tr>
+        </tfoot>
+    </table>
+</div>
 
-    <section class="comment">
-      <div class="avatar">
-        <img src="assets/user.png" alt="User Avatar">
-      </div>
-      <div class="comment-content">
-        <h3 class="username"><?php echo $name; ?></h3>
-        <p class="message"><?php echo $message; ?></p>
-      </div>
-    </section>
-
-    <?php
-  }
-}
-?>
-
-
-								</section>
-
+</section>
 
 								</section>
 								
