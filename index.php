@@ -28,6 +28,7 @@
 									<ul class="icons">
 										<li><a href="https://www.facebook.com/profile.php?id=100068804133842" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
 										<li><a href="https://www.youtube.com/@ianlin17698/" class="icon brands fa-youtube alt"><span class="label">Instagram</span></a></li>
+										<li><a href="https://github.com/ian20040409/111-2_Web_Editorial" class="icon brands fa-github alt"><span class="label">Instagram</span></a></li>
 										<div>
 										<h2>
 										<?php require_once("db/visitor_update.php")?>
