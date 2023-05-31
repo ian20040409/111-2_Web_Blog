@@ -91,25 +91,23 @@
 					<body>
 						
 						<!-- 浮動按鈕 -->
-						<div id="floating-button" onclick="scrollToTop()">
-							<img src="assets/arrow-up.svg" alt="Arrow" width="50" height="50">
-						  </div>
+						
 					
 					  </body>
 
 
 					  <!-- 浮動按鈕 -->
 					  <body>
-						<div id="floating-button" onclick="scrollToTop()">
-							<img src="assets/arrow-up.svg" alt="Arrow" width="50" height="50">
-						  </div>
-						  <script>
-							function scrollToTop() {
-							  $('html, body').animate({
-								scrollTop: 0
-							  }, 'slow');
-							}
-						  </script>
+					  <div id="floating-button" onclick="scrollToTop()">
+								<img src="assets/arrow-up.png" alt="Arrow" width="50" height="50">
+							  </div>
+							  <script>
+								function scrollToTop() {
+								  $('html, body').animate({
+									scrollTop: 0
+								  }, 'slow');
+								}
+							  </script>
 					  </body>	
 
 

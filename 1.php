@@ -96,7 +96,7 @@ if ($result->rowCount() > 0) {
 
     <section class="comment">
       <div class="avatar">
-        <img src="assets/user.svg" alt="User Avatar">
+	  <img src="assets/user.png" alt="User Avatar">
       </div>
       <div class="comment-content">
         <h3 class="username"><?php echo $name; ?></h3>
@@ -129,7 +129,7 @@ if ($result->rowCount() > 0) {
 
 						<body>
 							<div id="floating-button" onclick="scrollToTop()">
-								<img src="assets/arrow-up.svg" alt="Arrow" width="50" height="50">
+								<img src="assets/arrow-up.png" alt="Arrow" width="50" height="50">
 							  </div>
 							  <script>
 								function scrollToTop() {
