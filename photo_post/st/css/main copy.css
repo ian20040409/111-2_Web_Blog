@@ -1,12 +1,13 @@
 @import url(fontawesome-all.min.css);
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
 
+/*
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
 
-@media (prefers-color-scheme: dark) {
-	/* 暗色主題的樣式 */
-
-  
- et, object,
+html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
@@ -22,8 +23,7 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
-}
+	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -56,7 +56,7 @@ body {
 }
 
 mark {
-	background-color: #1f1f1f;
+	background-color: transparent;
 	color: inherit;
 }
 
@@ -121,7 +121,7 @@ input, select, textarea {
 
 	body {
 		background-color: #935d8c;
-		color: rgb(53, 54, 58);
+		color: rgba(255, 255, 255, 0.65);
 	}
 
 	body, input, select, textarea {
@@ -303,19 +303,19 @@ input, select, textarea {
 	}
 
 	input, select, textarea {
-		color: #1f1f1f;
+		color: #ffffff;
 	}
 
 	a:hover {
-		color: #1f1f1f;
+		color: #ffffff;
 	}
 
 	strong, b {
-		color: #1f1f1f;
+		color: #ffffff;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #1f1f1f;
+		color: #ffffff;
 	}
 
 	blockquote {
@@ -1925,7 +1925,7 @@ input, select, textarea {
 	.button {
 		background-color: transparent;
 		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.35);
-		color: #1f1f1f !important;
+		color: #ffffff !important;
 	}
 
 		input[type="submit"]:hover,
@@ -1958,7 +1958,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #8cc9f0;
-			color: #1f1f1f !important;
+			color: #ffffff !important;
 			box-shadow: none;
 		}
 
@@ -1983,7 +1983,7 @@ input, select, textarea {
 			input[type="button"].primary.icon:before,
 			button.primary.icon:before,
 			.button.primary.icon:before {
-				color: #1f1f1f !important;
+				color: #ffffff !important;
 			}
 
 /* Form */
@@ -2140,7 +2140,7 @@ input, select, textarea {
 	}
 
 	label {
-		color: #1f1f1f;
+		color: #ffffff;
 	}
 
 	input[type="text"],
@@ -2166,7 +2166,7 @@ input, select, textarea {
 	}
 
 		select option {
-			color: #1f1f1f;
+			color: #ffffff;
 			background: #935d8c;
 		}
 
@@ -2183,8 +2183,8 @@ input, select, textarea {
 
 	input[type="checkbox"]:checked + label:before,
 	input[type="radio"]:checked + label:before {
-		background-color: #1f1f1f;
-		border-color: #1f1f1f;
+		background-color: #ffffff;
+		border-color: #ffffff;
 		color: #935d8c;
 	}
 
@@ -2349,7 +2349,7 @@ input, select, textarea {
 
 	.icon.alt {
 		border-color: rgba(255, 255, 255, 0.35);
-		color: #1f1f1f;
+		color: #ffffff;
 	}
 
 		.icon.alt:hover {
@@ -2488,7 +2488,7 @@ input, select, textarea {
 	}
 
 	dl dt {
-		color: #1f1f1f;
+		color: #ffffff;
 	}
 
 /* Actions */
@@ -2777,7 +2777,7 @@ input, select, textarea {
 		}
 
 	table th {
-		color: #1f1f1f;
+		color: #ffffff;
 	}
 
 	table thead {
@@ -2879,7 +2879,7 @@ input, select, textarea {
 			-ms-flex: 1;
 			flex: 1;
 			padding: 1.5em;
-			color: #1f1f1f;
+			color: #ffffff;
 			text-align: center;
 		}
 
@@ -3215,13 +3215,13 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-		background-color: #1f1f1f;
+		background-color: #ffffff;
 		color: #636363;
 		position: absolute;
 		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
-		background-color: #1f1f1f;
+		background-color: #f7f7f7;
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
 		cursor: default;
@@ -3297,7 +3297,7 @@ input, select, textarea {
 					}
 
 					#nav ul li a.active {
-						background-color: #1f1f1f;
+						background-color: #ffffff;
 						box-shadow: none;
 					}
 
@@ -3334,7 +3334,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #1f1f1f;
+		background-color: #ffffff;
 		color: #636363;
 		border-radius: 0.25em;
 	}
@@ -3412,7 +3412,7 @@ input, select, textarea {
 			#main button.primary,
 			#main .button.primary {
 				background-color: #8cc9f0;
-				color: #1f1f1f !important;
+				color: #ffffff !important;
 				box-shadow: none;
 			}
 
@@ -3437,7 +3437,7 @@ input, select, textarea {
 				#main input[type="button"].primary.icon:before,
 				#main button.primary.icon:before,
 				#main .button.primary.icon:before {
-					color: #1f1f1f !important;
+					color: #ffffff !important;
 				}
 
 		#main label {
@@ -3468,7 +3468,7 @@ input, select, textarea {
 
 			#main select option {
 				color: #636363;
-				background: #1f1f1f;
+				background: #ffffff;
 			}
 
 		#main input[type="checkbox"] + label,
@@ -3486,7 +3486,7 @@ input, select, textarea {
 		#main input[type="radio"]:checked + label:before {
 			background-color: #636363;
 			border-color: #636363;
-			color: #1f1f1f;
+			color: #ffffff;
 		}
 
 		#main input[type="checkbox"]:focus + label:before,
@@ -3785,4 +3785,3 @@ input, select, textarea {
 			}
 
 		}
-	}
