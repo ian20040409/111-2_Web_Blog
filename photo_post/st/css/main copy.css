@@ -1,6 +1,11 @@
 @import url(fontawesome-all.min.css);
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
 
+/*
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -18,8 +23,7 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
-	}
+	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -95,11 +99,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #a39387;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(77deg, #a39387 40%, #c9b6a7 55%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(77deg#a39387 40%, #c9b6a7 55%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(77deg,#a39387 40%, #c9b6a7 55%);
-		background-image: url("images/overlay.png"), linear-gradient(77deg,#a39387 40%, #c9b6a7 55%);
+		background-color: #473fbc;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(77deg, #004e9b 40%, #684ce4 55%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(77deg, #004e9b 40%, #684ce4 55%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(77deg, #004e9b 40%, #684ce4 55%);
+		background-image: url("images/overlay.png"), linear-gradient(77deg, #004e9b 40%, #684ce4 55%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -116,7 +120,7 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color:#a39387;
+		background-color: #935d8c;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -194,7 +198,6 @@ input, select, textarea {
 		line-height: 1.5;
 		margin: 0 0 0.7em 0;
 		letter-spacing: -0.025em;
-		color: #ffffff;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -209,7 +212,6 @@ input, select, textarea {
 
 	h2 {
 		font-size: 1.5em;
-		color: #ffffff;
 	}
 
 	h3 {
@@ -321,7 +323,7 @@ input, select, textarea {
 	}
 
 	code {
-		background: rgb(255, 255, 255);
+		background: rgba(255, 255, 255, 0.075);
 		border-color: rgba(255, 255, 255, 0.35);
 	}
 
@@ -2183,7 +2185,7 @@ input, select, textarea {
 	input[type="radio"]:checked + label:before {
 		background-color: #ffffff;
 		border-color: #ffffff;
-		color: #c9b6a7;
+		color: #935d8c;
 	}
 
 	input[type="checkbox"]:focus + label:before,

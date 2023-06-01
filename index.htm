@@ -9,7 +9,7 @@
 		
 		<link type="image/png" sizes="96x96" rel="icon" href="assets/icons8-hard-working-96.png">
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
+		
 	
 	</head>
 	
@@ -95,7 +95,7 @@
 						<!-- 浮動按鈕 -->
 						<body>
 						<div id="floating-button" onclick="scrollToTop()">
-							<img src="assets/arrow-up.svg" alt="Arrow" width="50" height="50">
+							<img src="assets/arrow-up.png" alt="Arrow" width="50" height="50">
 						  </div>
 						  <script>
 							function scrollToTop() {
@@ -122,6 +122,29 @@
 								  </form>
 								  
 							</section>
+							<section>
+								<button id="color-switch-button">切換顏色主題</button>
+								<script>
+									// 監聽按鈕點擊事件
+document.getElementById("color-switch-button").addEventListener("click", function() {
+  // 切換 CSS 媒體查詢的顏色主題
+  toggleColorScheme();
+});
+
+// 切換顏色主題的函數
+function toggleColorScheme() {
+  var darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+  
+  // 如果當前是淺色主題，切換到暗色主題
+  if (darkModeMediaQuery.matches) {
+    document.documentElement.classList.remove("dark-theme");
+  } else { // 否則切換到淺色主題
+    document.documentElement.classList.add("dark-theme");
+  }
+}
+
+								</script>
+							</section>
 
 							<!-- Menu -->
 							<nav id="menu">
@@ -142,7 +165,7 @@
 									
 								</ul>
 							</nav>
-
+							
 							<!-- Section -->
 								<section>
 									<header class="major">
