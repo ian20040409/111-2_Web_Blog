@@ -40,7 +40,12 @@
 																<input type="email" name="email" id="email" value="" placeholder="電子郵件" />
 															</div>
 															
-															
+															<div class="col-12">
+																表單編號:
+																<input type="text" name="rcode" id="rcode" value="" placeholder="表單編號:" />
+																
+																</div>
+
 															<!-- Break -->
 															<div class="col-12">
 																<textarea name="message" id="message" placeholder="請在這裡輸入內容..." rows="6"></textarea>
@@ -91,7 +96,7 @@
 									
 									<li><a href="photo_post/photo_index.html">📸 相簿</a></li>
 									</li>
-									<li><a href="feedback.html">📄 意見回饋</a></li>
+									<li><a href="feedback.php">📄 意見回饋</a></li>
 									
 
 										
@@ -150,6 +155,28 @@
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
 		<script src="assets/js/validateForm.js"></script>
+		<script>
+			function generateBookingCode() {
+			  var code = '';
+			  var characters = '0123456789';
+			  for (var i = 0; i < 6; i++) {
+				code += characters.charAt(Math.floor(Math.random() * characters.length));
+			  }
+			  return code;
+			}
+			
+			document.addEventListener('DOMContentLoaded', function () {
+			  var bookingCodeInput = document.querySelector('input[name="rcode"]');
+			
+			  if (bookingCodeInput) {
+				bookingCodeInput.value = generateBookingCode();
+			  }
+			});
+			
+			
+			
+			
+					</script>
 
 	
 </html>

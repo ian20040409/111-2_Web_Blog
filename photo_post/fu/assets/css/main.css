@@ -103,7 +103,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #f4f4f4;
+		background: #292a2d;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -120,7 +120,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: #646464;
+		color: #707070;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 14pt;
 		font-weight: 400;
@@ -194,20 +194,20 @@ input, select, textarea {
 			}
 
 	strong, b {
-		color: #3c3b3b;
+		color: #d4d4d4;
 		font-weight: 700;
 	}
-
+/*
 	em, i {
 		font-style: italic;
 	}
-
+*/
 	p {
 		margin: 0 0 2em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #3c3b3b;
+		color: #cacaca;
 		font-family: "Raleway", Helvetica, sans-serif;
 		font-weight: 800;
 		letter-spacing: 0.25em;
@@ -3055,13 +3055,13 @@ input, select, textarea {
 	}
 
 		table tbody tr {
-			border: solid 1px rgba(160, 160, 160, 0.3);
+			border: solid 1px rgba(231, 225, 225, 0.3);
 			border-left: 0;
 			border-right: 0;
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: rgba(160, 160, 160, 0.075);
+				background-color: rgba(253, 253, 253, 0.075);
 			}
 
 		table td {
@@ -3069,7 +3069,7 @@ input, select, textarea {
 		}
 
 		table th {
-			color: #3c3b3b;
+			color: #fcfcfc;
 			font-size: 0.9em;
 			font-weight: 700;
 			padding: 0 0.75em 0.75em 0.75em;
@@ -3077,11 +3077,11 @@ input, select, textarea {
 		}
 
 		table thead {
-			border-bottom: solid 2px rgba(160, 160, 160, 0.3);
+			border-bottom: solid 2px rgba(231, 220, 220, 0.3);
 		}
 
 		table tfoot {
-			border-top: solid 2px rgba(160, 160, 160, 0.3);
+			border-top: solid 2px rgba(207, 203, 203, 0.3);
 		}
 
 		table.alt {
@@ -3089,7 +3089,7 @@ input, select, textarea {
 		}
 
 			table.alt tbody tr td {
-				border: solid 1px rgba(160, 160, 160, 0.3);
+				border: solid 1px rgba(219, 219, 219, 0.3);
 				border-left-width: 0;
 				border-top-width: 0;
 			}
