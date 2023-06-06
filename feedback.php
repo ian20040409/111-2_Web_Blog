@@ -105,11 +105,11 @@ try {
             echo "<td>" . $row['email'] . "</td>";
             echo "<td>" . $row['rcode'] . "</td>";
             echo "<td>" . $row['message'] . "</td>";
-            echo "<td><a href='edit.php?id=" . $row['id'] . "'>Edit</a></td>";
+            echo "<td><a href='edit.php?id=" . $row['id'] . "'><button>✍️ 修改</a></button></td>";
             echo "<td>
                 <form method='POST' action='".$_SERVER['PHP_SELF']."'>
                     <input type='hidden' name='delete_id' value='".$row['id']."'>
-                    <button type='submit' name='delete'>Delete</button>
+                    <button type='submit' name='delete'>❌ 刪除</button>
                 </form>
             </td>";
             echo "</tr>";
