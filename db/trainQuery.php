@@ -23,13 +23,10 @@ $rs2->setFetchMode(PDO::FETCH_BOTH);
 				<th>修改</th>
 				<th>删除</th>
 				<th>#</th>
-				<th>會員編號</th>
-				<th>出發站</th>
-				<th>抵達站</th>
-				<th>乘車日期</th>
-				<th>車次</th>
-				<th>訂票日期</th>
-				<th>訂單編號</th>
+				<th>姓名</th>
+				<th>電子郵件</th>
+				<th>表單編號</th>
+
 </tr>
 		
 		</table>
@@ -44,22 +41,18 @@ $rs2=$connect->query($sql2);
 $rs2->setFetchMode(PDO::FETCH_BOTH);
 //$row3=$row2->fetch();
 
-while($row3=$rs2->fetch()){
-	echo "<tr>";
-	echo "<a href='trainmod.php?tid=$row3[tid]'>修改</a></td>";
-	echo "<a href='traindel.php?tid=$row3[tid]'>刪除</a>";
-	echo "<td class='table-primary'>"$row3['tid'];
-    echo "<td class='table-primary'>"$row3['uid'];
-	echo "<td class='table-primary'>"$row3['depart'];
-	echo "<td class='table-primary'>"$row3['arrive'];
-	echo "<td class='table-primary'>"$row3['ddate'];
-	echo "<td class='table-primary'>"$row3['trainNo'];
-	echo "<td class='table-primary'>"$row3['oTime'];
-	echo "<td class='table-primary'>"$row3['bookingcode'];
-	echo "</td>";
-    echo  "</tr>";
-
+while ($row3 = $rs2->fetch()) {
+    echo "<tr>";
+    echo "<td><a href='trainmod.php?tid=$row3[tid]'>修改</a></td>";
+    echo "<td><a href='traindel.php?tid=$row3[tid]'>刪除</a></td>";
+    echo "<td class='table-primary'>" . $row3['tid'] . "</td>";
+    echo "<td class='table-primary'>" . $row3['name'] . "</td>";
+    echo "<td class='table-primary'>" . $row3['email'] . "</td>";
+    echo "<td class='table-primary'>" . $row3['rcode'] . "</td>";
+    echo "<td class='table-primary'>" . $row3['message'] . "</td>";
+    echo "</tr>";
 }
+
 	
 ?>
 </table>

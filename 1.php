@@ -168,7 +168,7 @@ if ($result->rowCount() > 0) {
 										
 									<li><a href="photo_post/photo_index.html">📸 相簿</a></li>
 									</li>
-									<li><a href="feedback.html">💬 意見回饋</a></li>
+									<li><a href="feedback.php">💬 意見回饋</a></li>
 									
 
 										
