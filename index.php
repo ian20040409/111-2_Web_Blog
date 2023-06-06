@@ -75,12 +75,22 @@
 												<li><a href="photo_post/photo_index.html" class="button">More</a></li>
 											</ul>
 										</article>
+										
+										
 										<article>									
 											<a href="reload.html" class="image"><img src="images/pic03.jpg" alt="" /></a>
 											<h3>更多文章</h3>
 											 
 											<ul class="actions">
 												<li><a href="https://ianlin.students.media/" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="2.php" class="image"><img src="images/wwdc23-2.jpg" alt="" /></a>
+											<h3>WWDC 23</h3>
+											 
+											<ul class="actions">
+												<li><a href="2.php" class="button">More</a></li>
 											</ul>
 										</article>
 										
