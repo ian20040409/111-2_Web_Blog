@@ -87,7 +87,7 @@
 										</article>
 										<article>
 											<a href="2.php" class="image"><img src="images/wwdc23-2.jpg" alt="" /></a>
-											<h3>WWDC 23</h3>
+											<h3>WWDC 23 重點 & 一些心得</h3>
 											 
 											<ul class="actions">
 												<li><a href="2.php" class="button">More</a></li>

@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>WWDC23</title>
+		<title>WWDC23 重點&一些心得</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -23,7 +23,7 @@
 							<!-- Content -->
 								<section>
 									<header class="main">
-										<h1>WWDC23</h1>
+										<h1>WWDC23 重點&觀後心得</h1>
 									</header>
 
 									<span class="image main"><img src="images/wwdc23.jpg" alt="" /></span>
