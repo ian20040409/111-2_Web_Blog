@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>WWDC23</title>
+		<title>WWDC23 重點&一些心得</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -23,27 +23,21 @@
 							<!-- Content -->
 								<section>
 									<header class="main">
-										<h1>WWDC23</h1>
+										<h1>WWDC23 重點&觀後心得</h1>
 									</header>
 
 									<span class="image main"><img src="images/wwdc23.jpg" alt="" /></span>
-									
-<p>如果你是一個蘋果迷，那你一定不會錯過每年的 WWDC 全球開發者大會，這是蘋果展示最新技術和產品的舞台，也是全球開發者交流和學習的平台。今年的 WWDC 2023 將於6月6日在美國舊金山舉行，除了 iOS 17、iPadOS 17、macOS 14、watchOS 10 及 tvOS 17 五大新系統外，還有4款新設備和全新穿戴系統 rxOS 也會在 WWDC23 發表會上登場，讓我們一起來看看有哪些值得期待的亮點吧！</p>
+                                    <p>2023年的蘋果全球開發者大會（WWDC 2023）讓我驚呆了！蘋果在這次的活動中，推出了一系列令人嘆為觀止的產品，讓我覺得蘋果真的是科技界的領導者。在這篇文章中，我要和大家分享我對這些產品的看法和感想，包括Apple Vision Pro、15吋MacBook Air和M2系列晶片Mac Studio與Apple Silicon款Mac Pro。</p>
 
-<p>15 吋 MacBook Air<br />
-蘋果在去年推出了搭載自家 M1 晶片的 MacBook Air，獲得了極高的評價和銷量，但是對於一些需要更大螢幕和更強效能的用戶來說，13 吋的 MacBook Air 還是不夠滿足。因此，蘋果今年將推出一款全新的 15 吋 MacBook Air，據傳將採用 M2 或 M3 晶片，提供更高的運算能力和更長的續航時間。15 吋 MacBook Air 的外觀設計也會有所改變，預計會採用更窄的邊框和更薄的機身，並且有多種顏色可供選擇，就像今年推出的 iMac 一樣。</p>
+<p>Apple Vision Pro是一款結合了AR和VR的頭戴式設備，它可以讓您體驗到虛擬和現實的完美融合。它使用了micro‑OLED面板、雙眼達2,300萬畫素，支援Optic ID解鎖，搭配3片式的光學折射鏡片，可支援眼神對位，以及手勢和語音控制，數位顯示器可投射100吋寬大螢幕畫面。無論您想要玩什麼遊戲、看什麼電影、學習什麼知識或做什麼工作，Apple Vision Pro都能讓您感覺像是親臨現場一樣。</p>
 
-<p>Apple Silicon 晶片款 Mac Pro<br />
-Mac Pro 是蘋果最高階的桌上型電腦，主要針對專業人士和創作者而設計，提供了極高的效能和擴充性。但是目前市面上的 Mac Pro 還是使用 Intel 的處理器，而不是蘋果自家的 Apple Silicon 晶片。這將在今年改變，因為蘋果將推出一款全新的 Apple Silicon 款 Mac Pro，據傳將採用 M2 Ultra 晶片，配備最多 24 核心 CPU 處理器和最多 76 核心 GPU ，記憶體至少會有 192GB ，並且保留出色的效能、擴充性和可訂製性。這款 Mac Pro 的外觀設計也會有所更新，預計會採用更小巧和更時尚的造型。</p>
+<p>15吋MacBook Air是一款超薄的筆記型電腦，它的厚度只有11.5公釐、重量只有3.3磅，但卻擁有強大的性能和續航力。它採用了M2晶片，可以提供18小時的電池續航力，售價NT$42,900起。新款15吋MacBook Air在日後在台上市。它適合各種需要高效能、高速度和高穩定性的創意工作者和專業人士使用。它還配備了全新的Magic Keyboard、Force Touch觸控板、Touch ID指紋辨識和FaceTime HD攝影機，讓您的操作更加流暢和安全。</p>
 
-<p>Mac Studio<br />
-Mac Studio 是蘋果今年推出的一款全新產品，它是 Mac mini 和 Mac Pro 的混合體，同時搭載了 M1 Max 和 M1 Ultra 晶片，提供了非常強大的效能和穩定性。Mac Studio 的特色是它可以連接到任何一個外接顯示器，包括蘋果自家的 Pro Display XDR ，並且可以支援多達六個顯示器同時使用。Mac Studio 的外觀設計也非常獨特，它採用了一個圓形的金屬底座，上面有一個透明的玻璃罩，裡面可以看到晶片和散熱系統的結構。Mac Studio 的價格也比 Mac Pro 便宜很多，適合那些需要高效能但不需要太多擴充性的用戶。</p>
+<p>M2系列晶片Mac Studio與Apple Silicon款Mac Pro是為高階用戶設計的桌上型電腦。它們都使用了自家設計的M2晶片，具有超強的運算能力和圖形處理能力，可以應對各種高負荷的工作場景，如影像編輯、3D建模、音樂製作等。它們還有精美的外觀設計和豐富的連接埠，讓您可以隨意地擴充您的工作站。M2 Max款Mac Studio售價NT$64,999元起，M2 Ultra款Mac Studio售價NT$129,999元起。2023 Mac Pro售價NT$229,900起。</p>
 
-<p>Apple AR/VR 頭戴式設備 Reality Pro<br />
-蘋果一直對 AR/VR 技術非常感興趣，並且投入了大量的資源和人力進行研發。今年，蘋果終於要推出自己的 AR/VR 頭戴式設備，被命名為 Reality Pro 。Reality Pro 是一款集合了 AR 和 VR 功能的混合實境設備，可以讓用戶體驗到不同的虛擬和增強實境內容。Reality Pro 的外觀設計非常時尚和輕巧，採用了一個白色的頭盔和一個黑色的面罩，面罩上有兩個高解析度的 OLED 螢幕，可以提供超過 8K 的畫質。Reality Pro 還配備了多個鏡頭和感測器，可以追蹤用戶的眼球、手勢和臉部表情，並且可以與 iPhone 和 iPad 等蘋果設備無縫連接。Reality Pro 還搭載了全新的作業系統 xrOS ，可以支援各種 AR/VR 應用程式和遊戲，讓用戶享受到前所未有的沉浸式體驗。</p>
+<p>這就是我對2023年的蘋果全球開發者大會（WWDC 2023）的一些心得和評論。我覺得這些產品都非常棒，讓我更加期待未來的科技發展。</p>
 
-<p>以上就是 WWDC 2023 有什麼值得期待的 4 款新品與 6 大新系統重點搶先看，你最期待哪一款產品或系統呢？歡迎在下方留言分享你的想法！<br />
-&nbsp;</p>
+
 <div class="video-container">
 <iframe width="1010" height="500" src="https://www.youtube.com/embed/GYkq9Rgoj8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
