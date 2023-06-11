@@ -163,7 +163,7 @@ if ($result->rowCount() > 0) {
 								</header>
 								<ul>
 									<li><a href="index.php">🏠 首頁</a></li>
-									<li><a href="photo_post/about.html">📂 關於我</a></li>
+									<li><a href="photo_post/about.html">📂 關於作者 </a></li>
 									
 										
 									<li><a href="photo_post/photo_index.html">📸 相簿</a></li>
