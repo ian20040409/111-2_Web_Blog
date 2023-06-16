@@ -1,7 +1,24 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
 @media (prefers-color-scheme: dark) {
-  /* 暗色主題的樣式 */
+  /* 暗色主題的樣式 dark mode 
+  
+　 へ　　　　　／|
+　　/＼7　　　 ∠＿/
+　 /　│　　 ／　／
+　│　Z ＿,＜　／　　 /`ヽ
+　│　　　　　ヽ　　 /　　〉
+　 Y　　　　　`　 /　　/
+　ｲ●　､　●　　⊂⊃〈　　/
+　()　 へ　　　　|　＼〈
+　　>ｰ ､_　 ィ　 │ ／／
+　 / へ　　 /　ﾉ＜| ＼＼
+　 ヽ_ﾉ　　(_／　 │／／
+　　7　　　　　　　|／
+　　＞―r￣￣`ｰ―＿
+  
+  
+  */
   html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2424,6 +2441,18 @@ button,
 
 
 @media (prefers-color-scheme: light) {
+  /* 
+  
+          _..---...,""-._     ,/}/)
+     .''        ,      ``..'(/-<
+    /   _      {      )         \
+   ;   _ `.     `.   <         a(
+ ,'   ( \  )      `.  \ __.._ .: y
+(  <\_-) )'-.____...\  `._   //-'
+ `. `-' /-._)))      `-._)))
+   `...'         
+  
+  */
 
   html, body, div, span, applet, object,
   iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
