@@ -1614,7 +1614,7 @@ button,
     input[type="button"].primary:active,
     button.primary:active,
     .button.primary:active {
-      background-color: #5c99f4; }
+      background-color: #064c9b; }
   input[type="submit"].disabled, input[type="submit"]:disabled,
   input[type="reset"].disabled,
   input[type="reset"]:disabled,
@@ -1626,6 +1626,47 @@ button,
   .button:disabled {
     pointer-events: none;
     opacity: 0.25; }
+  
+
+/* del btn */
+
+/* Delete Button */
+button.delete,
+.button.delete {
+    background-color: #e74c3c; /* 紅色背景 */
+    box-shadow: none;
+    color: #ffffff !important; /* 白色文字 */
+    border: none; /* 去除默認邊框 */
+    /* 按鈕內邊距 */
+    cursor: pointer; /* 鼠標懸停時顯示手型 */
+    border-radius: 4px; /* 圓角 */
+     /* 字體大小 */
+    transition: background-color 0.5s ease; /* 背景色過渡效果 */
+}
+
+button.delete:hover,
+.button.delete:hover {
+    background-color: #c0392b; /* 懸停時的深紅色 */
+    transition: 0.3s;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+button.delete:active,
+.button.delete:active,
+.button.delete:active {
+    background-color: #a93226; /* 活動狀態下的更深紅色 */
+}
+
+button.delete.disabled,
+.button.delete.disabled,
+button.delete:disabled,
+.button.delete:disabled {
+    pointer-events: none;
+    opacity: 0.25;
+}
 
 /* Mini Posts */
 .mini-posts article {
@@ -4023,7 +4064,7 @@ button,
     input[type="button"].primary,
     button.primary,
     .button.primary {
-      background-color: #8ab4f8;
+      background-color: #2A63A4;
       box-shadow: none;
       color: #ffffff !important; }
       input[type="submit"].primary:hover,
@@ -4051,6 +4092,49 @@ button,
     .button:disabled {
       pointer-events: none;
       opacity: 0.25; }
+
+
+      /* Delete Button */
+button.delete,
+.button.delete {
+    background-color: #e74c3c; /* 紅色背景 */
+    box-shadow: none;
+    color: #ffffff !important; /* 白色文字 */
+    border: none; /* 去除默認邊框 */
+    /* 按鈕內邊距 */
+    cursor: pointer; /* 鼠標懸停時顯示手型 */
+    border-radius: 4px; /* 圓角 */
+     /* 字體大小 */
+    transition: background-color 0.5s ease; /* 背景色過渡效果 */
+}
+
+button.delete:hover,
+.button.delete:hover {
+    background-color: #c0392b; /* 懸停時的深紅色 */
+    transition: 0.3s;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+button.delete:active,
+.button.delete:active,
+.button.delete:active {
+    background-color: #a93226; /* 活動狀態下的更深紅色 */
+}
+
+button.delete.disabled,
+.button.delete.disabled,
+button.delete:disabled,
+.button.delete:disabled {
+    pointer-events: none;
+    opacity: 0.25;
+}
+
+
+
+  
   
   /* Mini Posts */
   .mini-posts article {
