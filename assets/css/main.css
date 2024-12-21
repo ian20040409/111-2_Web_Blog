@@ -1,4 +1,5 @@
 @import url(fontawesome-all.min.css);
+
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
 @media (prefers-color-scheme: dark) {
   /* 暗色主題的樣式 dark mode 
@@ -98,7 +99,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: #262626; }
+  background: #292929; }
   body.is-preload *, body.is-preload *:before, body.is-preload *:after, body.is-resizing *, body.is-resizing *:before, body.is-resizing *:after {
     -moz-animation: none !important;
     -webkit-animation: none !important;
@@ -136,8 +137,8 @@ a {
   text-decoration: none; 
   }
   a:hover {
-    border-bottom-color: #0175cf;
-    color: #0175cf !important; }
+    border-bottom-color: #dde0e2;
+    color: #a5a2a2 !important; }
     a:hover strong {
       color: inherit; }
 
@@ -1024,7 +1025,7 @@ header p {
   text-transform: uppercase; }
 
 header.major > :last-child {
-  border-bottom: solid 3px #0175cf;
+  border-bottom: solid 3px #714eff;
   display: inline-block;
   margin: 0 0 2em 0;
   padding: 0 0.75em 0.5em 0; }
@@ -1522,20 +1523,22 @@ button,
   -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  background-color: transparent;
-  border-radius: 0.375em;
+  background-color: #9d6af5;
+  border-radius: 1.375em;
   border: 0;
-  box-shadow: inset 0 0 0 2px #0c88da;
-  color: #0175cf !important;
+  box-shadow: inset 0 0 0 2px #9d6af5;
+  color: #ffffff !important;
   cursor: pointer;
   display: inline-block;
-  font-family: "Roboto Slab", serif;
-  font-size: 0.8em;
-  font-weight: 700;
-  height: 3.5em;
-  letter-spacing: 0.075em;
-  line-height: 3.5em;
-  padding: 0 2.25em;
+  
+  font-family: "Roboto", sans-serif;
+
+  font-size: 0.9em;
+  font-weight: 400;
+  height: 3em;
+  letter-spacing: 0.1em;
+  line-height: 3em;
+  padding: 0 1.25em;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -1552,12 +1555,12 @@ button,
   button:hover,
   .button:hover {
 
-    background-color: rgba(106, 106, 246, 0.048); 
+    background-color: rgba(146, 106, 246, 0.272); 
     transition: 0.3s;
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
   }
   
     input[type="submit"]:active,
@@ -1648,10 +1651,10 @@ button.delete:hover,
 .button.delete:hover {
     background-color: #c0392b; /* 懸停時的深紅色 */
     transition: 0.3s;
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 button.delete:active,
@@ -1666,6 +1669,85 @@ button.delete:disabled,
 .button.delete:disabled {
     pointer-events: none;
     opacity: 0.25;
+    
+}
+
+
+/*for 2024 aws project*/  
+/* Logout Button */
+#logout-btn {
+  background-color: #a28735; /* 灰色 */
+  color: #ffffff; /* 文字顏色 */
+  box-shadow: none;
+}
+
+#logout-btn::before {
+    font-family: "Font Awesome 5 Free"; /* 確保已載入 Font Awesome */
+    content: "\f2f5"; /* 登出圖示的 Unicode */
+    margin-right: 8px;
+    font-weight: 900; /* 根據圖示類型調整字重 */
+}
+
+/* 送出按鈕的樣式 */
+button[type="submit"]::before {
+  font-family: "Font Awesome 5 Free"; /* 確保已載入 Font Awesome */
+  content: "\f1d8"; /* 送出圖示的 Unicode */
+  margin-right: 8px;
+  font-weight: 900; /* 根據圖示類型調整字重 */
+}
+
+/* 編輯按鈕的樣式 */
+.edit-btn {
+  background-color: #4d3a5d; /* 灰色 */
+  color: #ffffff; /* 文字顏色 */
+  box-shadow: none;
+}
+.edit-btn::before {
+  font-family: "Font Awesome 5 Free"; /* 確保已載入 Font Awesome */
+  content: "\f044"; /* 編輯圖示的 Unicode */
+  margin-right: 8px;
+  font-weight: 900; /* 根據圖示類型調整字重 */
+}
+
+/* 刪除按鈕的樣式 */
+.delete-btn {
+  background-color: #c0392b; /* 紅色系 */
+  color: #ffffff; /* 文字顏色 */
+  box-shadow: none;
+}
+.delete-btn::before {
+  font-family: "Font Awesome 5 Free"; /* 確保已載入 Font Awesome */
+  content: "\f1f8"; /* 刪除圖示的 Unicode */
+  margin-right: 8px;
+  font-weight: 900; /* 根據圖示類型調整字重 */
+}
+
+.save-btn {
+  background-color: #27ae60; /* 綠色系 */
+  color: #ffffff; /* 文字顏色 */
+  box-shadow: none;
+}
+
+.save-btn::before {
+  font-family: "Font Awesome 5 Free"; /* 確保已載入 Font Awesome */
+  content: "\f00c"; /* 保存圖示的 Unicode */
+  margin-right: 8px;
+  font-weight: 900; /* 根據圖示類型調整字重 */
+}
+
+.cancel-btn {
+  background-color: #5050fb; /* 紅色系 */
+  color: #ffffff; /* 文字顏色 */
+  border: none;
+  box-shadow: none;
+  
+}
+
+.cancel-btn::before {
+  font-family: "Font Awesome 5 Free"; /* 確保已載入 Font Awesome */
+  content: "\f00d"; /* 取消圖示的 Unicode */
+  margin-right: 8px;
+  font-weight: 900; /* 根據圖示類型調整字重 */
 }
 
 /* Mini Posts */
@@ -2163,7 +2245,7 @@ button.delete:disabled,
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  border-bottom: solid 5px #8ab4f8;
+  border-bottom: solid 5px #714eff;
   padding: 6em 0 1em 0;
   position: relative; }
   #header > * {
@@ -2382,14 +2464,14 @@ button.delete:disabled,
       }
       #floating-button:hover {
         /* 鼠標懸停時的樣式 */
-        transform: scale(1.1);
+        transform: scale(0.3);
       }
       @keyframes bounce {
         0% {
           transform: translateY(0);
         }
         50% {
-          transform: translateY(-8px);
+          transform: translateY(-4px);
         }
         100% {
           transform: translateY(0);
@@ -2554,8 +2636,28 @@ button.delete:disabled,
   @-ms-viewport {
     width: device-width; }
   
-  body {
-    -ms-overflow-style: scrollbar; }
+  /* 適用於現代瀏覽器的滾動條樣式 */
+body {
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: #888 #f1f1f1; /* Firefox */
+}
+
+body::-webkit-scrollbar {
+    width: 10px; /* 滾動條寬度 */
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #0084ff8c; /* 滾動條顏色 */
+    border-radius: 10px; /* 圓角 */
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: #0044ff; /* 滾動條懸停顏色 */
+}
+
+body::-webkit-scrollbar-track {
+    background: #f1f1f182; /* 滾動條背景 */
+}
   
   @media screen and (max-width: 480px) {
     html, body {
@@ -2606,8 +2708,8 @@ button.delete:disabled,
     text-decoration: none; 
     }
     a:hover {
-      border-bottom-color: #8ab4f8;
-      color: #8ab4f8 !important; }
+      border-bottom-color: #d9d9d94e;
+      color: #939393 !important; }
       a:hover strong {
         color: inherit; }
   
@@ -3988,20 +4090,22 @@ button.delete:disabled,
     -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
     -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-    background-color: transparent;
-    border-radius: 0.375em;
+    background-color: #306FDB;
+    border-radius: 1.375em;
     border: 0;
-    box-shadow: inset 0 0 0 2px #0c88da;
-    color: #8ab4f8 !important;
+    box-shadow: inset 0 0 0 2px #0099ff41;
+    color: #dde2eb !important;
     cursor: pointer;
     display: inline-block;
-    font-family: "Roboto Slab", serif;
-    font-size: 0.8em;
+    
+    font-family: "Roboto", sans-serif;
+
+    font-size: 0.9em;
     font-weight: 700;
-    height: 3.5em;
+    height: 3em;
     letter-spacing: 0.075em;
-    line-height: 3.5em;
-    padding: 0 2.25em;
+    line-height: 3em;
+    padding: 0 1.5em;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
@@ -4017,13 +4121,13 @@ button.delete:disabled,
     input[type="button"]:hover,
     button:hover,
     .button:hover {
-  
-      background-color: rgba(106, 106, 246, 0.048); 
-      transition: 0.3s;
-      -moz-transform: scale(1.2);
-      -webkit-transform: scale(1.2);
-      -ms-transform: scale(1.2);
-      transform: scale(1.2);
+      color: #ffffff; 
+      background-color: rgba(7, 112, 193, 0.992); 
+      transition: 0.4s;
+      -moz-transform: scale(1.15);
+      -webkit-transform: scale(1.15);
+      -ms-transform: scale(1.15);
+      transform: scale(1.15);
     }
     
       input[type="submit"]:active,
@@ -4112,10 +4216,10 @@ button.delete:hover,
 .button.delete:hover {
     background-color: #c0392b; /* 懸停時的深紅色 */
     transition: 0.3s;
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 button.delete:active,
@@ -4131,9 +4235,77 @@ button.delete:disabled,
     pointer-events: none;
     opacity: 0.25;
 }
+/*for 2024 aws project*/  
+/* Logout Button */
+#logout-btn {
+  background-color: #00a4aa; /* 灰色 */
+  color: #ffffff; /* 文字顏色 */
+  box-shadow: none;
+}
+#logout-btn::before {
+    font-family: "Font Awesome 5 Free"; /* 確保已載入 Font Awesome */
+    content: "\f2f5"; /* 登出圖示的 Unicode */
+    margin-right: 8px;
+    font-weight: 900; /* 根據圖示類型調整字重 */
+}
 
+/* 送出按鈕的樣式 */
+button[type="submit"]::before {
+  font-family: "Font Awesome 5 Free"; /* 確保已載入 Font Awesome */
+  content: "\f1d8"; /* 送出圖示的 Unicode */
+  margin-right: 8px;
+  font-weight: 900; /* 根據圖示類型調整字重 */
+}
 
+/* 編輯按鈕的樣式 */
+.edit-btn {
+  background-color: #4e4e8e; /* 灰色 */
+  color: #ffffff; /* 文字顏色 */
+  box-shadow: none;
+}
+.edit-btn::before {
+  font-family: "Font Awesome 5 Free"; /* 確保已載入 Font Awesome */
+  content: "\f044"; /* 編輯圖示的 Unicode */
+  margin-right: 8px;
+  font-weight: 900; /* 根據圖示類型調整字重 */
+}
 
+/* 刪除按鈕的樣式 */
+.delete-btn {
+  background-color: #c0392b; /* 紅色系 */
+  color: #ffffff; /* 文字顏色 */
+  box-shadow: none;
+}
+.delete-btn::before {
+  font-family: "Font Awesome 5 Free"; /* 確保已載入 Font Awesome */
+  content: "\f1f8"; /* 刪除圖示的 Unicode */
+  margin-right: 8px;
+  font-weight: 900; /* 根據圖示類型調整字重 */
+}
+
+.save-btn {
+  background-color: #119d1c; /* 綠色系 */
+  color: #ffffff; /* 文字顏色 */
+  box-shadow: none;
+}
+
+.save-btn::before {
+  font-family: "Font Awesome 5 Free"; /* 確保已載入 Font Awesome */
+  content: "\f00c"; /* 保存圖示的 Unicode */
+  margin-right: 8px;
+  font-weight: 900; /* 根據圖示類型調整字重 */
+}
+.cancel-btn {
+  background-color: #0396ec; /* 紅色系 */
+  color: #ffffff; /* 文字顏色 */
+  
+}
+.cancel-btn::before {
+  font-family: "Font Awesome 5 Free"; /* 確保已載入 Font Awesome */
+  content: "\f00d"; /* 取消圖示的 Unicode */
+  margin-right: 8px;
+  font-weight: 900; /* 根據圖示類型調整字重 */
+}
   
   
   /* Mini Posts */
@@ -4767,8 +4939,8 @@ button.delete:disabled,
       color: inherit;
       cursor: pointer;
       display: block;
-      font-size: 0.9em;
-      padding: 0.625em 0; }
+      font-size: 1em;
+      padding: 0.325em 0; }
       #menu ul a:hover, #menu ul span:hover {
         color: #8ab4f8; }
       #menu ul a.opener, #menu ul span.opener {
